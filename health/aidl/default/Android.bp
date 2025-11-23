@@ -40,8 +40,8 @@ cc_binary {
     recovery: false,
     vendor: true,
     defaults: ["android.hardware.health-service.batteryless-defaults"],
-    init_rc: ["android.hardware.health-service.batteryless.rc"],
-    overrides: ["charger"],
+        init_rc: ["android.hardware.health-service.batteryless.rc"],
+        overrides: ["charger"],
 }
 
 cc_binary {
@@ -49,8 +49,8 @@ cc_binary {
     vendor: false,
     recovery: true,
     defaults: ["android.hardware.health-service.batteryless-defaults"],
-    init_rc: ["android.hardware.health-service.batteryless_recovery.rc"],
-    overrides: ["charger.recovery"],
+        init_rc: ["android.hardware.health-service.batteryless_recovery.rc"],
+        overrides: ["charger.recovery"],
 }
 
 cc_binary {
