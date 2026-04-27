@@ -2,3 +2,8 @@ hidl_package_root {
     name: "vendor.xperience",
     path: "hardware/xperience/interfaces",
 }
+
+hidl_package_root {
+    name: "vendor.lineage",
+    path: "hardware/xperience/interfaces",
+}
