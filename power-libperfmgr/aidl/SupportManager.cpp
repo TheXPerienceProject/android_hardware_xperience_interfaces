@@ -217,6 +217,10 @@ bool SupportManager::sessionModeSupported(SessionMode type) {
     switch (type) {
         case SessionMode::POWER_EFFICIENCY:
             return false;
+        case SessionMode::GRAPHICS_PIPELINE:
+            return false;
+        case SessionMode::AUDIO_PERFORMANCE:
+            return false;
         default:
             return true;
     }
